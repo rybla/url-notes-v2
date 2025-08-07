@@ -1,3 +1,5 @@
+import log from "./log";
+
 export async function cacheText(
   filepath: string,
   initialize: () => Promise<string>,
@@ -8,7 +10,7 @@ export async function cacheText(
   }
   const text = await initialize();
   Bun.write(file, text);
-  console.log(`initialized cache: ${filepath}`);
+  log(`initialized cache: ${filepath}`);
   return text;
 }
 
@@ -22,6 +24,6 @@ export async function cacheJson<A>(
   }
   const a = await initialize();
   Bun.write(file, JSON.stringify(a));
-  console.log(`initialized cache: ${filepath}`);
+  log(`initialized cache: ${filepath}`);
   return a;
 }
