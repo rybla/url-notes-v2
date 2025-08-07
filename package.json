@@ -1,0 +1,23 @@
+{
+  "name": "daemons",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/filenamify-url": "^2.0.1",
+    "@types/jsdom": "^21.1.7"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@mozilla/readability": "^0.6.0",
+    "@types/turndown": "^5.0.5",
+    "filenamify-url": "^3.1.0",
+    "firebase": "^12.0.0",
+    "jsdom": "^26.1.0",
+    "turndown": "^7.2.0",
+    "zod": "^4.0.15"
+  }
+}
