@@ -1,4 +1,4 @@
-import log from "./log";
+import { log } from "./console";
 
 export async function cacheText(
   filepath: string,
