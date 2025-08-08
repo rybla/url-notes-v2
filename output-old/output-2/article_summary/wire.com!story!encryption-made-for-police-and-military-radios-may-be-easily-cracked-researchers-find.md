@@ -1,0 +1,6 @@
+*   **Initial Vulnerability:** The TETRA (Terrestrial Trunked Radio) standard's TEA1 encryption algorithm, used in police and military radios, was previously found to have an intentional backdoor reducing its 80-bit key to 32 bits.
+*   **New E2EE Flaw:** Researchers have now found that at least one implementation of the recommended end-to-end encryption (E2EE) solution (from TCCA, endorsed by ETSI) is also vulnerable.
+*   **Key Compression:** The examined E2EE implementation reduces its initial 128-bit key to a 56-bit effective key length before encrypting traffic, making it significantly easier to crack.
+*   **Protocol Vulnerability:** A second flaw was discovered in the TCCA E2EE protocol design itself, which allows for the injection of fraudulent voice traffic and the replaying of messages. This affects all users of the scheme, not just a specific implementation.
+*   **Cause & Transparency:** The key reduction is likely due to export control regulations. A leaked 2006 document from radio manufacturer Sepura confirms factory configurations for different key lengths (128, 64, or 56-bit), but it is unclear if end-users are made aware of which version they receive.
+*   **Discovery:** The vulnerabilities were found by reverse-engineering the E2EE algorithm from a Sepura-made radio.

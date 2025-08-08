@@ -1,0 +1,6 @@
+*   **Context:** The author uses a `Result`-like return value wrapper in C++ (inspired by Rust) to handle failable operations, preventing direct access to the value or error before a success check.
+*   **Initial Problem:** A common copy-paste error involved using a variable from a previous check in a subsequent, unrelated error-handling block (e.g., using `ai.error()` after checking `ni()`). This was possible because the variable remained in scope.
+*   **Scoped Solution:** The author adopted C++'s "if with initializer" syntax (`if (auto var = init(); !var()) { ... }`) to limit the variable's scope to the conditional block, preventing the previous category of bug.
+*   **New Bug:** By incorrectly applying the error-handling pattern (`!var()`) to a success-handling case, the author introduced a bug that prevented the `User-Agent` string from being set when it was present.
+*   **Mitigation Strategy:** The system logs the git commit hash (build ID) with every transaction. This allowed the author to precisely identify the database entries affected by the single faulty build.
+*   **User-Facing Improvement:** A visual "fingerprint" of the build hash is now displayed in the UI. This allows end-users to see if an issue they are experiencing correlates with a recent change in the application build, potentially saving them from debugging a server-side issue.

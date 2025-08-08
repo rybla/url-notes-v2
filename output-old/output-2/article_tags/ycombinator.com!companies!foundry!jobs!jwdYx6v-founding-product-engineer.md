@@ -1,0 +1,1 @@
+AI, Artificial Intelligence, AI Agents, Web Automation, Simulation, Reinforcement Learning, Y Combinator, Software Engineering, Founding Engineer, Full-Stack, DevOps, Python, FastAPI, Go, Rust, React, Next.js, TypeScript, WebSockets, Playwright, Puppeteer, PostgreSQL, Redis, RabbitMQ, Kubernetes, Docker, CI/CD, GCP, AWS

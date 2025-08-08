@@ -1,0 +1,3 @@
+- **BIOS:** PhoenixBIOS 1.4 Release 6.0 (Copyright 1985-2001 Phoenix Technologies Ltd.)
+- **Virtualization:** Running on VMware (BIOS build 314, Copyright 2001-2003 VMware Inc.)
+- **Boot Device:** Initializing from an ATAPI CD-ROM, specifically a "VMware Virtual IDECDROM Drive".

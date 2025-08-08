@@ -1,0 +1,5 @@
+{
+  "name": "Hacker News Top",
+  "feedUrl": "https://hnrss.org/best",
+  "maxItems": 2
+}

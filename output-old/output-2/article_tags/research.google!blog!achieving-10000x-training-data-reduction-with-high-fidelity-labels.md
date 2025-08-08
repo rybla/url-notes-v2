@@ -1,0 +1,1 @@
+Artificial Intelligence, Machine Learning, LLM, Fine-Tuning, Active Learning, Data Curation, Training Data, Data Reduction, Model Alignment, Human-in-the-loop, Embeddings, Classification, Labeling, Cohen's Kappa

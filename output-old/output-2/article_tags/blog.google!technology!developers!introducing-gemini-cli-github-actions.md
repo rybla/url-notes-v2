@@ -1,0 +1,1 @@
+AI, Coding, GitHub, GitHub Actions, Automation, Issue Triage, Pull Request Review, Security, Gemini CLI, Google Cloud, Vertex AI, Gemini Code Assist, OpenTelemetry, Continuous Integration, Developer Tools

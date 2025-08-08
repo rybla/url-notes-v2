@@ -1,0 +1,1 @@
+Monte Carlo, Quasi-Monte Carlo, Numerical Integration, Variance Reduction, Stratified Sampling, Adaptive Sampling, Latin Hypercube Sampling, Low-Discrepancy Sequences, Halton Sequence, Curse of Dimensionality

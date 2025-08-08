@@ -1,0 +1,10 @@
+- **Economic Bifurcation:** The U.S. economy exhibits a split between a rapidly growing AI sector and a stagnant consumer economy. AI-related spending is the primary driver of overall economic growth.
+- **Market Concentration:** Approximately 60% of stock market growth over the past two years is attributed to AI-related firms. The S&P 500's performance is heavily skewed by its top 10 companies, masking weaker performance in the remaining 490.
+- **Unprecedented Capital Expenditure:** Major tech firms (Meta, Google, Microsoft, Amazon) are investing $100B-$200B in a six-month period on AI infrastructure (chips, data centers). This capex boom, as a share of GDP, rivals the dot-com era and the 19th-century railroad build-out.
+- **Funding Mechanism:** This investment is financed by the massive free cash flow generated from the core, non-AI business models of these tech giants.
+- **Accelerated Startup Velocity:** AI startups are achieving $1M in annualized revenue in a median of 11.5 months, significantly faster than previous SaaS company benchmarks, per Stripe data.
+- **Rapid Adoption Curve:** Generative AI's adoption rate is estimated to be twice as fast as that of the internet. Over 50% of workers in management and information services already use the technology.
+- **Contradictory Productivity Data:**
+    - **Positive Indicators:** Self-reported data (e.g., teachers saving 6 hours/week) and studies in structured environments (e.g., call centers) suggest significant productivity gains. The complexity of tasks automatable by AI agents is reportedly doubling every 7 months.
+    - **Negative Indicators:** A METR study on experienced software developers found that while they perceived a 20% productivity increase from AI assistants, their task completion time actually increased by 20%.
+- **Academic Influence:** Analysis of academic abstracts from 2024 shows a 2,700% increase in the usage of the word "delves," suggesting that approximately 14% of abstracts were processed by AI.

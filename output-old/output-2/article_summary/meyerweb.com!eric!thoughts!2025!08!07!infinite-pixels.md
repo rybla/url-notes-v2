@@ -1,0 +1,10 @@
+- The article explores how different browsers handle CSS properties set to `calc(infinity * 1px)` to probe their layout engines' upper limits.
+- **`width` & `height`:**
+    - Safari and Chrome clamp the value to a number very close to 2^25 - 1 (approximately 33.5 million pixels).
+    - Firefox behaves inconsistently: `height` defaults to the size of a line of text, while `width` computes to ~17.9M pixels but renders at about half that value.
+- **`font-size`:**
+    - Safari and Chrome use hardcoded maximums of 100,000px and 10,000px, respectively.
+    - Firefox computes to the maximum 32-bit single-precision float value but renders at a much smaller 2,400px, with behavior further complicated by `line-height` adjustments.
+- **`line-height`:**
+    - Results are similar to `width`, with Safari and Chrome clamping near 33.5M pixels and Firefox rendering at half its computed value.
+- **Overall:** The technique reveals significant, non-obvious, and inconsistent implementation-specific limits across browsers, with Firefox exhibiting the most peculiar and complex behaviors.
