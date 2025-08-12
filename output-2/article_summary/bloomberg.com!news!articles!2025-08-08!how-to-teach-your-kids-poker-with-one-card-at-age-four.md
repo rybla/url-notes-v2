@@ -1,0 +1,3 @@
+- System detected unusual network activity, triggering a CAPTCHA challenge.
+- Access requires the client to have JavaScript and cookies enabled.
+- A unique reference ID is generated for support inquiries.

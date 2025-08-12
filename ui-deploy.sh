@@ -1,7 +1,7 @@
 echo "[$(date "+%Y-%m-%d,%H:%M")] [ui-deploy] begin"
 
-# # generate content
-# bun run script/hackernews-top.ts
+# generate content
+bun run script/hackernews-top.ts
 
 # build ui
 bun run script/ui-build.ts

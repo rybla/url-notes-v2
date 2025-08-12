@@ -1,0 +1,8 @@
+- **Neurological Origin:** Thirst is a brain-generated experience, primarily orchestrated by deep structures like the hypothalamus and brainstem, to compel water acquisition. It is not a direct signal from individual dehydrated cells.
+- **Blood Monitoring:** Specialized brain regions exempt from the blood-brain barrier—the vascular organ of lamina terminalis (OVLT) and the subfornical organ (SFO)—directly sense blood salinity. A 1-3% change in water content is enough to trigger a response.
+- **Dual Response to Dehydration:** When high salinity is detected, the brain initiates two processes:
+    1.  The hypothalamus releases the hormone vasopressin to signal the kidneys to retain water.
+    2.  The SFO activates neural circuits that create the conscious sensation of thirst.
+- **Predictive Satiation:** The brain does not wait 30-60 minutes for water to enter the bloodstream. It uses predictive signals—such as the volume of water passing the throat and the mechanical stretching of the stomach—to rapidly shut off the thirst drive.
+- **Salt vs. Water Drive:** Unlike the powerful, aversive drive of thirst, the need for sodium is regulated by taste and dopamine-based reinforcement learning. Salt tastes pleasurable when the body is deficient, reinforcing consumption.
+- **Circuit Uncoupling and Adaptation:** The fundamental neural circuits for thirst are conserved across mammals, but can be uncoupled to suit an animal's ecological niche. For example, hibernating ground squirrels produce vasopressin to conserve water but their brains downregulate the thirst-drive neurons to prevent the need to drink.
