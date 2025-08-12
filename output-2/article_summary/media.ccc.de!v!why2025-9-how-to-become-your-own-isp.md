@@ -1,0 +1,4 @@
+- **Topic**: A guide on the core principles of internet infrastructure and how to participate as an independent entity.
+- **Key Concepts**: The talk covers Border Gateway Protocol (BGP), Autonomous System (AS) numbers, and IP prefixes.
+- **Objective**: To provide practical, actionable knowledge for individuals to establish their own internet presence, effectively becoming their own Internet Service Provider (ISP).
+- **Content**: Includes a technical deep-dive and a practical tour of the speaker's own network architecture.

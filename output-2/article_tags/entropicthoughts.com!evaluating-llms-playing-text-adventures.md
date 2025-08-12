@@ -1,0 +1,1 @@
+LLM evaluation, text adventures, AI performance, benchmarking, cost-effectiveness, Gemini 2.5 Flash, Claude 4 Sonnet, game AI, Natural Language Processing, achievement-based scoring, quantitative analysis

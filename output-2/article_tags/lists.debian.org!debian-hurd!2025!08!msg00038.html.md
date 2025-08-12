@@ -1,0 +1,1 @@
+Debian, GNU/Hurd, Operating System, Release, i386, amd64, 64-bit, Rump kernel, Filesystem, xattr, Rust, Toolchain, Hardware Support, USB, CD-ROM, SMP, ACPI, RTC, APIC, HPET, Installation, Virtualization, QEMU

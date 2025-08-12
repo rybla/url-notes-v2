@@ -1,0 +1,1 @@
+Apache Iceberg, Data Engineering, Change Data Capture, CDC, Delete Operations, Position Delete, Equality Delete, Streaming Data, Databases, Data Warehousing, Snowflake, Databricks, Amazon Redshift, RisingWave, Data Compaction, Exactly-Once Semantics, Data Integrity, Data Management

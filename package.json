@@ -3,6 +3,10 @@
   "module": "index.ts",
   "type": "module",
   "private": true,
+  "scripts": {
+    "ui.dev": "bun --hot ui/**/*.html",
+    "ui.build": "bun build --outdir=ui-dist ui/**/*.html"
+  },
   "devDependencies": {
     "@types/bun": "latest",
     "@types/filenamify-url": "^2.0.1",
@@ -27,8 +31,10 @@
     "turndown": "^7.2.0",
     "zod": "^4.0.15"
   },
-  "scripts": {
-    "ui.dev": "bun --hot ui/**/*.html",
-    "ui.build": "bun build --outdir=ui-dist ui/**/*.html"
-  }
+  "trustedDependencies": [
+    "@firebase/util",
+    "protobufjs",
+    "sharp",
+    "unrs-resolver"
+  ]
 }

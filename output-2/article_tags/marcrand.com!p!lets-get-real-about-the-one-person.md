@@ -1,0 +1,1 @@
+One-person company, Billion dollar company, Entrepreneurship, Startups, Founder mindset, Psychological tolerance, Pain tolerance, Resilience, Solo founder, Valuation, Consumer apps, Viral products, Scalable platforms, Business models, Tech industry

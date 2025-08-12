@@ -1,0 +1,13 @@
+- **Project:** Omnara, a platform for monitoring and interacting with AI agents.
+- **Core Function:** Provides a mobile-first interface (iOS/Android/Web) for real-time visibility and control over AI agents like Claude Code, Cursor, and GitHub Copilot.
+- **Problem Solved:** Addresses the issue of long-running, non-interactive AI agent tasks that may get stuck awaiting user input, by externalizing the communication channel.
+- **Architecture:**
+    - Agents communicate with a FastAPI backend via a custom Model Context Protocol (MCP) and REST API.
+    - The backend uses a PostgreSQL database with SQLAlchemy ORM.
+    - A notification service sends alerts to user devices (mobile/web).
+    - User interactions are relayed back to the agent through the API.
+- **Authentication:** Utilizes a dual JWT system; Supabase for user authentication and a custom RSA-based JWT system for agent authentication.
+- **Usage Modes:**
+    - **Real-Time Monitoring:** A CLI wrapper (`omnara`) intercepts and forwards agent communication to the Omnara platform.
+    - **Remote Launch:** A server mode (`omnara serve`) allows agents to be launched remotely via webhooks from the mobile/web application.
+- **Integration:** Offers a Python SDK and a direct REST API for custom agent integration.

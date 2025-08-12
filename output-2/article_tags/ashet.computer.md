@@ -1,0 +1,1 @@
+Home Computer, Open Source Hardware, DIY, Hackable, Microcontrollers, Single-Board Computers, Embedded Systems, RP2350, Hardware, Electronics, Computing, Operating Systems, DVI, PSRAM, Ethernet, I2C, Project Development, Crowdfunding, Engineering, Consumer Electronics, Open Source, Licensing

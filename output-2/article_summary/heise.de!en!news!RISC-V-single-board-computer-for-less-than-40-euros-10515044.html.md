@@ -1,0 +1,10 @@
+- **Product:** StarFive Vision Five 2 Lite, a low-cost 64-bit RISC-V single-board computer (SBC).
+- **Pricing:** Crowdfunding campaign offers a 2GB RAM version for $20 (excluding shipping/taxes). 4GB and 8GB versions are available for $30 and $37, respectively.
+- **SoC:** Features a StarFive JH7110S with RISC-V cores (SiFive U74 type) clocked at a maximum of 1.25 GHz, slightly slower than the 1.5 GHz JH7110 in the non-Lite version.
+- **Hardware Differences (Lite vs. non-Lite):** Reduced connectivity, including a single Ethernet port, one USB 3.0 socket, and an M.2 slot connected via a single PCIe lane.
+- **Competition:** Other SBCs use the same JH7110 SoC (e.g., Pine64 Star64, OrangePi RV). Newer competitors feature eight-core RISC-V SoCs like the SpacemiT K1.
+- **Driver Status:** GPU driver support for the integrated Imagination Technology BXE-4-32 is poor. Promised open-source drivers are not yet available.
+- **OS Support:**
+    - **Debian:** Available via special images with bundled drivers.
+    - **Ubuntu:** Server-only support, explicitly lacking GPU acceleration.
+    - **Fedora:** The Vision Five 2 is a "flagship board" for the RISC-V SIG, with images available, but GPU support is not detailed.
