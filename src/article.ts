@@ -3,6 +3,7 @@ import { JSDOM } from "jsdom";
 import TurndownService from "turndown";
 import * as ai from "./ai";
 import { Article } from "./ontology";
+import { formatDateTime } from "./utility";
 
 /**
  * Extracts an article from the HTML page at a given URL.
@@ -23,6 +24,7 @@ export async function fetchArticle(url: string): Promise<Article | null> {
       return acc;
     }, {} as Article);
     article.url = url;
+    article.addedTime = formatDateTime(new Date());
     return article;
   } catch {
     return null;

@@ -19,6 +19,17 @@ export function formatDateTime(date: Date): string {
   return `${year}-${month}-${day},${hours}:${minutes}`;
 }
 
+export function fromFormattedDateTime(s: string): Date | undefined {
+  const [dateStr, timeStr] = s.split(",");
+  if (dateStr === undefined || timeStr === undefined) return undefined;
+  const [year, month, day] = dateStr.split("-").map(Number);
+  if (year === undefined || month === undefined || day === undefined)
+    return undefined;
+  const [hours, minutes] = timeStr.split(":").map(Number);
+  if (hours === undefined || minutes === undefined) return undefined;
+  return new Date(year, month - 1, day, hours, minutes);
+}
+
 export function show<A>(x: A): string {
   return Bun.inspect(x, {
     colors: true,

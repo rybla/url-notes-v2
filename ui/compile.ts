@@ -2,7 +2,7 @@ import { log } from "@/console";
 import { readJsonFile, readTextFile } from "@/file";
 import { Article } from "@/ontology";
 import paths from "@/paths";
-import { do_, formatDateTime } from "@/utility";
+import { do_, formatDateTime, fromFormattedDateTime } from "@/utility";
 
 export async function test(): Promise<string> {
   return Promise.resolve(`hello world at ${formatDateTime(new Date())}`);
@@ -62,5 +62,26 @@ export async function getArticleInfos(): Promise<ArticleInfo[]> {
         return [info];
       }),
     )
-  ).flat();
+  )
+    .flat()
+    .toSorted((x, y) => {
+      const x_addedTime =
+        x.article.addedTime === undefined
+          ? undefined
+          : fromFormattedDateTime(x.article.addedTime);
+      const y_addedTime =
+        y.article.addedTime === undefined
+          ? undefined
+          : fromFormattedDateTime(y.article.addedTime);
+      if (x_addedTime !== undefined && y_addedTime !== undefined) {
+        return y_addedTime.getTime() - x_addedTime.getTime();
+      }
+      if (x_addedTime !== undefined) {
+        return -1;
+      }
+      if (y_addedTime !== undefined) {
+        return 1;
+      }
+      return 0;
+    });
 }

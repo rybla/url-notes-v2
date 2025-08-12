@@ -27,6 +27,10 @@ export const Article = z.object({
   dir: z.string().optional().describe("The content direction"),
   siteName: z.string().optional().describe("The name of the site"),
   lang: z.string().optional().describe("The content language"),
+  addedTime: z
+    .string()
+    .optional()
+    .describe("The time the article was added to the collection"),
   publishedTime: z.string().optional().describe("The published time"),
   summary: z
     .string()
