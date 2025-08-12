@@ -1,0 +1,5 @@
+*   **Invention:** A de novo, computationally designed, luminescent biosensor for detecting the stress hormone cortisol.
+*   **Mechanism:** The target analyte (cortisol) induces the association of two designed proteins, which triggers a luminescent signal. The intensity of the emitted light is directly proportional to the cortisol concentration.
+*   **Application:** Enables point-of-care testing using a "mix and read" format with a small blood or urine sample. A standard smartphone camera can be used to quantify the luminescent output, eliminating the need for specialized lab equipment.
+*   **Performance:** The biosensor exhibits higher sensitivity and a significantly wider dynamic range compared to traditional clinical assays. It provides accurate quantitative measurements across all physiologically relevant cortisol levels (low, normal, and high).
+*   **Significance:** It is the first reported instance of a completely computationally designed biosensor for a small molecule analyte achieving such high performance, facilitating more accessible and accurate health monitoring.

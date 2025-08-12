@@ -1,0 +1,4 @@
+- **Platform:** x.com (X Corp.)
+- **Issue:** The user's web browser is no longer supported.
+- **Impact:** Access to the site is blocked.
+- **Resolution:** The user must switch to a browser listed in the provided Help Center link.

@@ -1,0 +1,1 @@
+e-paper, monitor, FPGA, open-hardware, development kit, low latency, high refresh rate, USB-C, DVI, microcontroller, open-source, display technology, hardware, electronics, customization, cross-platform, developers
