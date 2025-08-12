@@ -1,0 +1,12 @@
+- **Subject:** Wikimedia Foundation's legal challenge to the UK's Online Safety Act (OSA) Categorisation Regulations.
+- **Claimant:** Wikimedia Foundation, joined by a volunteer Wikipedia contributor (User:Zzuuzz).
+- **Core Argument:** The regulations risk mis-categorizing Wikipedia as a "Category 1" service, imposing the most stringent duties, which are designed for high-risk commercial platforms.
+- **Potential Impact of Category 1 Duties:**
+    - Mandated identity verification for many contributors, compromising privacy and safety.
+    - Increased vulnerability to manipulation and vandalism.
+    - Diversion of non-profit resources to compliance rather than core mission.
+- **Legal Status (as of 11 August 2025):**
+    - The High Court of Justice dismissed the Foundation's challenge.
+    - The court acknowledged Wikipedia's value and warned the regulator (Ofcom) and the government against implementing the OSA in a way that would significantly impede Wikipedia's operations.
+    - The ruling suggested Ofcom may need a flexible interpretation of the rules, or Parliament may need to amend them, to protect Wikipedia.
+- **Next Step:** Ofcom is expected to make its first categorization decisions in summer 2025; the Foundation will continue to advocate for protection.

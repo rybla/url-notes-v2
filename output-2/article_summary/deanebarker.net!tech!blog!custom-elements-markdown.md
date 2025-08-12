@@ -1,0 +1,16 @@
+- **Core Concept:** Use Markdown for text content and embed Web Components (as Custom Elements) for complex, reusable UI components.
+- **Mechanism:**
+    - A server-side Markdown processor (e.g., Markdig, Marked) parses the text, converting Markdown syntax to HTML.
+    - The processor is configured to ignore standard HTML tags, leaving the Custom Element tags (e.g., `<subscribe-to>`) untouched in the output.
+    - The browser receives the mixed HTML, then processes and expands the Custom Elements into their full DOM structures via client-side JavaScript.
+- **Benefits:**
+    - **Abstraction:** Authors can use simple, declarative tags in Markdown to represent complex components without writing verbose HTML.
+    - **Separation of Concerns:** Content creation (Markdown) is decoupled from component implementation (JavaScript/Web Components).
+    - **Extensibility:** Creates a powerful "macro" system where Markdown handles text formatting and Custom Elements handle structural/interactive components.
+- **Technical Considerations:**
+    - **Invalid Syntax:** Custom Elements cannot be self-closing (`<my-tag />`). They require an explicit closing tag (`<my-tag></my-tag>`).
+    - **Parser Limitations:** Some Markdown parsers struggle with multi-line attributes on HTML tags.
+    - **Preprocessing:** A build-step preprocessor can be used to automatically fix issues like self-closing tags or multi-line attributes before the content is passed to the Markdown parser.
+- **Alternative Architectures:**
+    - **Client-Side Rendering:** Process the Markdown on the client inside a dedicated Web Component (e.g., `<md-block>`).
+    - **Server-Side Rendering (SSR):** Render the Custom Elements into static HTML on the server (supported by libraries like Lit), which can be "re-hydrated" on the client to add interactivity.

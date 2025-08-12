@@ -1,0 +1,1 @@
+CPU performance, clock cycles, x86, x64, ALU, FPU, branching, memory access, cache, TLB, NUMA, atomic operations, software primitives, function calls, memory allocation, kernel calls, exceptions, thread context switching, optimization, low-level programming

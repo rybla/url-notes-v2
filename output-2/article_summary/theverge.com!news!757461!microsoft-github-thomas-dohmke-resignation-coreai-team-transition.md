@@ -1,0 +1,4 @@
+*   **Personnel Change:** GitHub CEO Thomas Dohmke has resigned to found a new startup.
+*   **Organizational Restructuring:** The GitHub CEO position will not be filled. GitHub's leadership team will now report directly to Microsoft's CoreAI organization, ending its period of semi-independent operation.
+*   **Reporting Chain:** This change integrates GitHub more deeply into Microsoft's structure. The previous reporting line was GitHub CEO -> Head of Microsoft's Developer Division (Julia Liuson) -> Head of CoreAI (Jay Parikh). The new structure removes the CEO layer, aligning GitHub's leadership directly under the CoreAI team.
+*   **Strategic Context:** The move aligns GitHub with Microsoft's strategic focus on developing a unified AI platform and tools, as envisioned by CoreAI leader Jay Parikh.

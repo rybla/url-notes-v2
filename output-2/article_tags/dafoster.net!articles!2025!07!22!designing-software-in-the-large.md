@@ -1,0 +1,1 @@
+Software Design, Complexity, Dependencies, Obscurity, Software Engineering, Code Quality, Maintainability, Refactoring, System Design, Deep Modules, Obvious Code, Development Mindset, Strategic Development

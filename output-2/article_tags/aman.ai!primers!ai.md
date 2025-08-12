@@ -1,0 +1,1 @@
+AI, Machine Learning, Deep Learning, Algorithms, Architectures, MLOps, Data Processing, Training, Regularization, Fine-tuning, Speech, Vision, NLP, Evaluation, On-device AI, BERT, GPT, LLaMA, Gemini, CLIP

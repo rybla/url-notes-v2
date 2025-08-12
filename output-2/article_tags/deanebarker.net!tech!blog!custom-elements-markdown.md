@@ -1,0 +1,1 @@
+Web Components, Custom Elements, Markdown, Front-end Development, UI/UX, Content Management, Abstraction, Separation of Concerns, Extensibility, Server-Side Rendering, Client-Side Rendering, HTML, JavaScript, Web Development

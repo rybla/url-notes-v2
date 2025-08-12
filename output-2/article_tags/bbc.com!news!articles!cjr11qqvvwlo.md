@@ -1,0 +1,1 @@
+Wikimedia Foundation, Online Safety Act, UK regulation, Wikipedia, censorship, privacy, legal challenge, judicial review, Ofcom, internet law, content moderation, free speech, online platforms, digital rights

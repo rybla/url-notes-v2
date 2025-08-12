@@ -1,0 +1,1 @@
+AI, Large Language Models, MoE, Model Architecture, llama.cpp, Software, Tools, CPU, GPU, Hardware, Offloading, Performance Optimization, VRAM, Memory, Resource Management, RAM, System Memory, Inference, Performance, Consumer Hardware, RTX 3060Ti, Precision, Data Types, Quantization
