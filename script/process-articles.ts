@@ -1,33 +1,31 @@
 import { generateSummary, generateTags, getMarkdownContent } from "@/article";
 import { cacheText } from "@/cache";
 import { Article } from "@/ontology";
-import * as fs from "fs/promises";
-import path from "path";
+import paths from "@/paths";
 
 // -----------------------------------------------------------------------------
 
-const dirpath_articles = "output-1/article";
-const filenames_articles = await fs.readdir(dirpath_articles);
-for (const filename_article of filenames_articles) {
+const ids_articles = await paths.get_ids_of_articles();
+for (const id_article of ids_articles) {
   // remove json extension from filename_article
-  const id = path.basename(filename_article, ".json");
-  console.log(`processing article: ${id}`);
+  console.log(`processing article: ${id_article}`);
 
-  const filepath_article = path.join(dirpath_articles, filename_article);
-  const article = Article.parse(await Bun.file(filepath_article).json());
+  const article = Article.parse(
+    await Bun.file(paths.filepath_article(id_article)).json(),
+  );
 
   const content = await cacheText(
-    `output-2/article_content/${id}.md`,
+    paths.filepath_article_content(id_article),
     async () => await getMarkdownContent(article),
   );
 
   const summary = await cacheText(
-    `output-2/article_summary/${id}.md`,
+    paths.filepath_article_summary(id_article),
     async () => await generateSummary(content),
   );
 
   const tags = await cacheText(
-    `output-2/article_tags/${id}.csv`,
+    paths.filepath_article_tags(id_article),
     async () => await generateTags(article.title, summary),
   );
 }

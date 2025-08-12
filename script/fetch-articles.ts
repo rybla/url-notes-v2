@@ -1,31 +1,20 @@
 import {
-  fetchArticle,
-  generateSummary,
-  generateTags,
-  getMarkdownContent,
+  fetchArticle
 } from "@/article";
-import { cacheJson, cacheText } from "@/cache";
+import { cacheJson } from "@/cache";
 import { error, log } from "@/console";
 import { fetchFeed } from "@/feed";
 import { RssFeedConfig, type Article } from "@/ontology";
-import { show } from "@/utility";
+import paths from "@/paths";
 import filenamifyUrl from "filenamify-url";
-import * as fs from "fs/promises";
-import path from "path";
 
 // -----------------------------------------------------------------------------
 
-const dirpath_feeds = "input/feed";
-const filenames_feeds = await fs.readdir(dirpath_feeds);
-// log(show({ filenames_feeds }));
-
 const feeds = await Promise.all(
-  filenames_feeds.map(
-    async (filename_feed) =>
+  (await paths.get_filepaths_of_feeds()).map(
+    async (filepath_feed) =>
       await fetchFeed(
-        RssFeedConfig.parse(
-          await Bun.file(path.join(dirpath_feeds, filename_feed)).json(),
-        ),
+        RssFeedConfig.parse(await Bun.file(filepath_feed).json()),
       ),
   ),
 );
@@ -41,7 +30,7 @@ for (const feed of feeds) {
       log(`fetching article at url: ${url}`);
 
       const article = await cacheJson(
-        `output-1/article/${filenamifyUrl(url)}.json`,
+        paths.filepath_article(filenamifyUrl(url)),
         async () => {
           const article: Article | null = await fetchArticle(url);
           if (!article) return null;

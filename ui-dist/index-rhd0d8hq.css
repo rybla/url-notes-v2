@@ -1,0 +1,41 @@
+/* ui/App.css */
+html, body {
+  background-color: #fbefc2;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:  center;
+  gap: 20px;
+  width: 100%;
+  padding: 20px;
+}
+
+.article-card-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 500px;
+}
+
+.article-card {
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.article-card-id {
+  font-weight: bold;
+}
+
+.article-card-title {
+  font-size: 1.2em;
+}

@@ -30,5 +30,5 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["src", "script"]
+  "include": ["src", "script", "ui", "ui"]
 }

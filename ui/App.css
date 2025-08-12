@@ -1,0 +1,49 @@
+html,
+body {
+  background-color: rgb(251, 239, 194);
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.app {
+  width: 100%;
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.article-card-list {
+  max-width: 500px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.article-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.article-card-id {
+  font-weight: bold;
+}
+
+.article-card-title {
+  font-size: 1.2em;
+}
+
+.article-card-tags {
+}
+
+.article-card-summary {
+}
