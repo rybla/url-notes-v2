@@ -1,0 +1,6 @@
+- **Production:** Apple-1 computers were produced in two batches in spring and fall of 1976.
+- **No Serial Numbers:** Apple did not issue serial numbers for the Apple-1. The registry assigns unique names for identification, typically based on ownership history.
+- **Supplied Components:** Apple provided only the mainboard, a Cassette Interface Adapter, and manuals. Cases, power supplies, and keyboards were sourced by the user.
+- **Verification & Accuracy:** The registry's information is provided on a best-effort basis ("More or less verified"), as ownership and operational status can be uncertain. High-quality replicas, sometimes with date-correct components, exist and can be mistaken for originals.
+- **Availability:** The number of Apple-1 units available for private purchase is decreasing as they are acquired by permanent collections like museums.
+- **Registry Scope:** Tracks successful auctions since 2000 and maintains a list of known, unlisted, and lost Apple-1 computers.

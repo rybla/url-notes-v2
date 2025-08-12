@@ -1,5 +1,6 @@
 import path from "path";
 import * as fs from "fs";
+import { log } from "@/console";
 
 const dirpath_feed = path.join("input", "feed");
 
@@ -28,7 +29,7 @@ export const paths = {
   dirpath_article_summary,
   dirpath_article_tags,
   get_ids_of_articles(): string[] {
-    console.log("[get_ids_of_articles]");
+    log("[get_ids_of_articles]");
     return fs
       .readdirSync(dirpath_article, {
         encoding: "utf8",

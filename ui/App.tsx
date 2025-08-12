@@ -1,8 +1,9 @@
-import "./App.css";
-import { get_articles } from "./compile" with { type: "macro" };
 import Markdown from "react-markdown";
+import { getArticleInfos } from "./compile" with { type: "macro" };
 
-const articles = await get_articles();
+import "./App.css";
+
+const articles = await getArticleInfos();
 
 export default function App() {
   return (

@@ -1,5 +1,5 @@
 {
-  "name": "daemons",
+  "name": "url-notes-v2",
   "module": "index.ts",
   "type": "module",
   "private": true,
@@ -29,6 +29,6 @@
   },
   "scripts": {
     "ui.dev": "bun --hot ui/**/*.html",
-    "ui.build": "bun build --outfile=ui.html ui/index.html"
+    "ui.build": "bun build --outdir=ui-dist ui/**/*.html"
   }
 }

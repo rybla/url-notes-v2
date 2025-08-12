@@ -17,6 +17,8 @@ const config = {
 
 // -----------------------------------------------------------------------------
 
+log(`[hackernews-top] begin`);
+
 const client = new Client();
 const stories = await client.get_top_stories(
   config["number of stories to fetch"],
@@ -25,7 +27,7 @@ for (const story of stories) {
   const url = story.url;
   if (!url) continue;
 
-  log(`processing url: ${url}`);
+  log(`[hackernews-top] processing url: ${url}`);
 
   try {
     const article = await cacheJson(
@@ -43,17 +45,18 @@ for (const story of stories) {
     );
     const tags = await cacheText(
       `output-2/article_tags/${filenamifyUrl(url)}.md`,
-      async () =>
-        await generateTags(article.title ?? url, summary),
+      async () => await generateTags(article.title ?? url, summary),
     );
   } catch (e: unknown) {
     if (e instanceof Error) {
       error(e.toString());
     } else {
-      log("unrecognized exception:", e);
+      log("[hackernews-top] unrecognized exception:", e);
     }
   }
 }
+
+log(`[hackernews-top] end`);
 
 // -----------------------------------------------------------------------------
 
